@@ -8,7 +8,7 @@ Add this to your application's `shard.yml`:
 
 ``` yaml
 dependencies:
-  email:
+  base58:
     github: valenciaj/crystal-base58
 ```
 
@@ -23,7 +23,7 @@ puts Base58.random 32
 
 ## Contributing
 
-1. Fork it (<https://github.com/valenciaj/base58/fork>)
+1. Fork it (<https://github.com/valenciaj/crystal-base58/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
