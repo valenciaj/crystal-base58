@@ -1,22 +1,29 @@
 # base58
 
-TODO: Write a description here
+Generate random strings with Base58 alphabet.
 
 ## Installation
 
-TODO: Write installation instructions here
+Add this to your application's `shard.yml`:
+
+``` yaml
+dependencies:
+  email:
+    github: valenciaj/crystal-base58
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+``` crystal
+require "base58"
 
-## Development
-
-TODO: Write development instructions here
+# Generating a 32 chars string length
+puts Base58.random 32
+```
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/base58/fork>)
+1. Fork it (<https://github.com/valenciaj/base58/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -24,4 +31,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) Javier Valencia - creator, maintainer
+- [valenciaj](https://github.com/valenciaj) Javier Valencia - creator, maintainer
