@@ -1,0 +1,13 @@
+name: base58
+version: 0.1.0
+
+authors:
+  - Javier Valencia <jv@voiper.es>
+
+targets:
+  base58:
+    main: src/base58.cr
+
+crystal: 0.26.1
+
+license: MIT
